@@ -1,0 +1,119 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8B0000; /* Cor de fundo mais suave */
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+/* Estilo para o título principal */
+.titulo {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5rem; /* Tamanho de fonte maior */
+}
+
+ul{
+    list-style-type: none;
+}
+
+/* Estilo para os subtítulos */
+.subtitulo {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5rem; /* Tamanho de fonte maior */
+}
+
+.divisao-pizzas h2{
+    font-size: 40px;
+    color: #8B0000;
+}
+
+.divisao-quem-somos h1{
+    font-size: 60px;
+    color: #8B0000;
+}
+
+.divisao-quem-somos h2, p{
+    
+    color: #8B0000;
+}
+
+/* Estilo para as divisões */
+.divisao-pizzas, .divisao-bebidas, .divisao-quem-somos, .divisao-contato {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4e3e3; /* Fundo branco */
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    
+    
+}
+
+.divisao-contato {
+    background-color: #FFD700; /* Cor de fundo azul */
+    color: #fff; /* Cor do texto branco */
+}
+
+.divisao-quem-somos {
+    background-color:#FFD700; /* Cor de fundo azul */
+    color: #fff; /* Cor do texto branco */
+}
+
+/* Estilo para os títulos de divisão */
+.tituloDivisao {
+    margin-top: 10px;
+    font-size: 1.2rem; /* Tamanho de fonte maior */
+}
+
+/* Estilo para os parágrafos */
+.paragrafo {
+    margin: 5px 0;
+    font-size: 1rem; /* Tamanho de fonte ligeiramente maior */
+}
+
+/* Estilo para os formulários */
+.formulario {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4e3e3;
+}
+
+/* Estilo para os campos de entrada do formulário */
+.formularioDivisao {
+    margin-bottom: 10px;
+}
+
+/* Estilo para o botão de envio do formulário */
+button[type="submit"] {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #8B0000;
+    color: #FFD700;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+button[type="submit"]:hover {
+    background-color:#FFD700; /* Mudança de cor ao passar o mouse */
+}
+
+/* Estilo para as imagens */
+img {
+    max-width: 100%;
+    height: auto;
+}
